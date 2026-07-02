@@ -1,0 +1,50 @@
+{
+  "company": "Acme Manufacturing Ltd",
+  "boundary": "operational control",
+  "reporting_goal": "SBTi target setting",
+  "revenue_currency": "GBP",
+  "proposed_target_annual_reduction_pct": 4.2,
+  "offsets_planned_tco2e": 0.0,
+  "activities": [
+    {
+      "category": 1,
+      "description": "Steel purchases (spend-based)",
+      "quantity": 5000000,
+      "unit_activity": "GBP",
+      "factor_id": "EXIOBASE-EEIO-2024-STEEL-GBP",
+      "method": "spend-based"
+    },
+    {
+      "category": 3,
+      "description": "Diesel for on-site forklifts",
+      "quantity": 40000,
+      "unit_activity": "litre",
+      "factor_id": "DEFRA-FR-2024-DIESEL",
+      "method": "activity-based"
+    },
+    {
+      "category": 4,
+      "description": "Inbound HGV freight",
+      "quantity": 1200000,
+      "unit_activity": "tonne-km",
+      "factor_id": "DEFRA-TK-2024-HGV-RT",
+      "method": "activity-based"
+    },
+    {
+      "category": 6,
+      "description": "Business air travel (short-haul)",
+      "quantity": 300000,
+      "unit_activity": "passenger-km",
+      "factor_id": "DEFRA-TRV-2024-AIR-PAX-SH",
+      "method": "activity-based"
+    },
+    {
+      "category": 7,
+      "description": "Employee commuting (car)",
+      "quantity": 2500000,
+      "unit_activity": "passenger-km",
+      "factor_id": "DEFRA-COM-2024-CAR-MED",
+      "method": "activity-based"
+    }
+  ]
+}
